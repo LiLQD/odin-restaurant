@@ -5,7 +5,7 @@ import { contactLoad } from "./contact.js";
 export const content = document.querySelector("#content");
 
 const navBtn = document.querySelector(".nav-links");
-navBtn.chil;
+homeLoad();
 navBtn.addEventListener("click", (e) => {
   const btn = e.target.closest("button");
   console.log(btn.textContent);
